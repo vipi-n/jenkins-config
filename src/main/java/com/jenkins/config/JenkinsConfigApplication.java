@@ -11,7 +11,7 @@ import javax.annotation.PostConstruct;
 public class JenkinsConfigApplication {
 
 	@PostConstruct
-	public void init(){
+	public  init(){
 		log.info("Application has been started --------");
 	}
 	public static void main(String[] args) {
